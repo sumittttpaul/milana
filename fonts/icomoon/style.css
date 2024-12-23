@@ -1,0 +1,221 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('fonts/icomoon0bc3.ttf?4ul16v') format('truetype'),
+    url('fonts/icomoon0bc3.woff?4ul16v') format('woff'),
+    url('fonts/icomoon0bc3.svg?4ul16v#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icn-"], [class*=" icn-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icn-one_click:before {
+  content: "\e92e";
+}
+.icn-filter:before {
+  content: "\e935";
+}
+.icn-pause:before {
+  content: "\e933";
+}
+.icn-map-pin:before {
+  content: "\e92c";
+}
+.icn-quotes-right:before {
+  content: "\e936";
+}
+.icn-quotes-left:before {
+  content: "\e937";
+}
+.icn-play:before {
+  content: "\e934";
+}
+.icn-map-pin-1:before {
+  content: "\e92d";
+}
+.icn-pallet:before {
+  content: "\e93e";
+}
+.icn-logo .path1:before {
+  content: "\e90e";
+  color: rgb(43, 43, 43);
+}
+.icn-logo .path2:before {
+  content: "\e90f";
+  margin-left: -2.6083984375em;
+  color: rgb(242, 71, 95);
+}
+.icn-logo .path3:before {
+  content: "\e910";
+  margin-left: -2.6083984375em;
+  color: rgb(153, 154, 155);
+}
+.icn-cart:before {
+  content: "\e90a";
+}
+.icn-addtocart:before {
+  content: "\e904";
+}
+.icn-arrow_menu_left:before {
+  content: "\e907";
+}
+.icn-arrow_menu_right:before {
+  content: "\e908";
+}
+.icn-arrow_down:before {
+  content: "\e927";
+}
+.icn-arrow_up:before {
+  content: "\e92f";
+}
+.icn-arrow_left:before {
+  content: "\e906";
+}
+.icn-arrow_right:before {
+  content: "\e909";
+}
+.icn-arrow_bottom:before {
+  content: "\e939";
+}
+.icn-arrow_top:before {
+  content: "\e938";
+}
+.icn-pagination_down:before {
+  content: "\e914";
+}
+.icn-pagination_up:before {
+  content: "\e917";
+}
+.icn-pagination_left:before {
+  content: "\e915";
+}
+.icn-pagination_right:before {
+  content: "\e916";
+}
+.icn-close-1:before {
+  content: "\e90b";
+}
+.icn-close-2:before {
+  content: "\e90c";
+}
+.icn-close:before {
+  content: "\e913";
+}
+.icn-delete_basket_item:before {
+  content: "\e90d";
+}
+.icn-mail:before {
+  content: "\e911";
+}
+.icn-menu:before {
+  content: "\e912";
+}
+.icn-arrow_breadcrumbs:before {
+  content: "\e930";
+}
+.icn-phone:before {
+  content: "\e91d";
+}
+.icn-edit_cart:before {
+  content: "\e901";
+}
+.icn-address:before {
+  content: "\e903";
+}
+.icn-check:before {
+  content: "\e900";
+}
+.icn-quick_view:before {
+  content: "\e91e";
+}
+.icn-search:before {
+  content: "\e91f";
+}
+.icn-select_options:before {
+  content: "\e920";
+}
+.icn-show_2_columns:before {
+  content: "\e921";
+}
+.icn-show_3_columns:before {
+  content: "\e922";
+}
+.icn-show_4_columns:before {
+  content: "\e923";
+}
+.icn-star_empty:before {
+  content: "\e924";
+}
+.icn-star_full:before {
+  content: "\e925";
+}
+.icn-user:before {
+  content: "\e926";
+}
+.icn-clock:before {
+  content: "\e931";
+}
+.icn-person:before {
+  content: "\e932";
+}
+.icn-google-plus:before {
+  content: "\e905";
+}
+.icn-pinterest:before {
+  content: "\e928";
+}
+.icn-instagram:before {
+  content: "\e929";
+}
+.icn-twitter:before {
+  content: "\e92a";
+}
+.icn-facebook:before {
+  content: "\e92b";
+}
+.icn-users:before {
+  content: "\e93a";
+}
+.icn-cup:before {
+  content: "\e93b";
+}
+.icn-handshake:before {
+  content: "\e93c";
+}
+.icn-heart:before {
+  content: "\e93d";
+}
+.icn-pay_paypal:before {
+  content: "\e902";
+}
+.icn-pay_ae:before {
+  content: "\e918";
+}
+.icn-pay_discover:before {
+  content: "\e91a";
+}
+.icn-pay_visa:before {
+  content: "\e91c";
+}
+.icn-pay_mc:before {
+  content: "\e91b";
+}
+.icn-pay_amazon:before {
+  content: "\e919";
+}

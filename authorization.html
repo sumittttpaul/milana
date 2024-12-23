@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from nikoband.com/html/milana-demo/authorization.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Jan 2022 15:33:10 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="description" content="Milana eCommerce HTML Template">
+    <meta name="author" content="nikoband">
+    <title>Milana eCommerce HTML Template</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" href="images/favicons/favicon.ico">
+    <!-- vendor concat styles -->
+    <link href="css/vendor.min.css" rel="stylesheet">
+
+    <!-- vendors styles - separate files
+	<link href="css/vendor/bootstrap.css" rel="stylesheet">
+	<link href="css/vendor/slick.css" rel="stylesheet">
+	<link href="css/vendor/animate.css" rel="stylesheet">
+	<link href="css/vendor/easyzoom.css" rel="stylesheet">
+	<link href="css/vendor/perfect-scrollbar.css" rel="stylesheet">-->
+
+    <!-- custom styles -->
+    <link href="css/style.css" rel="stylesheet">
+    <noscript id="lazyStyles">
+        <link href="fonts/worksans/style.css" rel="stylesheet">
+        <link href="fonts/icomoon/style.css" rel="stylesheet"></noscript>
+    <script>
+        let loadLazyStyles = function() {
+            let addStylesNode = document.getElementById("lazyStyles");
+            let replacement = document.createElement("div");
+            replacement.innerHTML = addStylesNode.textContent;
+            document.body.appendChild(replacement)
+            addStylesNode.parentElement.removeChild(addStylesNode);
+        };
+        let raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+            window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+        if (raf) raf(function() {
+            window.setTimeout(loadLazyStyles, 0);
+        });
+        else window.addEventListener('load', loadLazyStyles);
+    </script>
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        window.lazySizesConfig.expand = 800;
+    </script>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="off-shadow header-sticky">
+        <div class="header-desktop">
+            <div class="container-fluid">
+                <div class="row header-row">
+                    <div class="col-auto header-col-l header-col-logo">
+                        <div class="header-logo hidden-sticky"><a href="index.html"><img src="images/logo.png" srcset="images/logo@2x.png 2x" alt="Logo"></a></div>
+                        <div class="header-logo visible-sticky"><a href="index.html"><img src="images/logo-sticky.png" srcset="images/logo@2x.png 2x" alt="Logo"></a></div>
+                    </div>
+                    <div class="col header-col-c">
+                        <div class="nav-wrap">
+                            <nav>
+                                <ul class="desktop-megamenu js-megamenu">
+                                    <li class="js-link-megamenu"><a href="index.html">HOME</a>
+                                        <div class="dropdown-megamenu">
+                                            <div class="dropdown-megamenu-scroll">
+                                                <div class="row">
+                                                    <div class="col col-width-2">
+                                                        <h3>Choose demo layout</h3>
+                                                        <ul>
+                                                            <li><a href="index.html">Layout 01</a></li>
+                                                            <li><a href="index-02.html">Layout 02</a></li>
+                                                            <li><a href="index-03.html">Layout 03</a></li>
+                                                            <li><a href="index-04.html">Layout 04</a></li>
+                                                            <li><a href="index-05.html">Layout 05</a></li>
+                                                            <li><a href="index-06.html">Layout 06</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col col-width-2">
+                                                        <h3>Choose demo skin</h3>
+                                                        <ul>
+                                                            <li><a href="index.html">Default Fashion</a></li>
+                                                            <li><a href="index-skin-accessories.html">Accessories</a></li>
+                                                            <li><a href="index-skin-techstore.html">Techstore</a></li>
+                                                            <li><a href="index-skin-wheels.html">Wheels</a></li>
+                                                            <li><a href="index-skin-furniture.html">Furniture</a></li>
+                                                            <li><a href="coming-soon.html">Cooming Soon ....</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col col-width-2 img-right"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio="1" data-src="images/megamenu/megamenu-img.png" alt=""></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="js-link-megamenu"><a href="listing.html">SHOP</a>
+                                        <div class="dropdown-megamenu">
+                                            <div class="dropdown-megamenu-scroll">
+                                                <div class="row">
+                                                    <div class="col col-width-3">
+                                                        <h3>Product Listing</h3>
+                                                        <ul>
+                                                            <li><a href="listing.html">Left Column</a></li>
+                                                            <li><a href="listing-right-col.html">Right Column</a></li>
+                                                            <li><a href="listing-no-col.html">Without Column</a></li>
+                                                            <li><a href="listing-no-banner.html">Without Banners</a></li>
+                                                            <li><a href="listing-sticky-filter.html">Sticky Filter</a></li>
+                                                            <li><a href="listing-sticky-filters-row.html">Sticky Row Filter</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col col-width-3">
+                                                        <h3>Products grid</h3>
+                                                        <ul>
+                                                            <li><a href="listing-2-per-row.html">Two per row</a></li>
+                                                            <li><a href="listing-no-col.html">Three per row</a></li>
+                                                            <li><a href="listing-4-per-row.html">Four per row</a></li>
+                                                        </ul>
+                                                        <div class="mt-20"><a href="listing.html"><img src="images/megamenu/megamenu-img-03.jpg" class="img-responsive" alt=""></a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="js-link-megamenu"><a href="product.html">PRODUCT</a>
+                                        <div class="dropdown-megamenu">
+                                            <div class="dropdown-megamenu-scroll">
+                                                <div class="row">
+                                                    <div class="col col-width-3">
+                                                        <h3>Product Layout</h3>
+                                                        <ul>
+                                                            <li><a href="product.html">Left Previews</a></li>
+                                                            <li><a href="product-6.html">Right Previews</a></li>
+                                                            <li><a href="product-2.html">Bottom Previews</a></li>
+                                                            <li><a href="product-7.html">Top Previews</a></li>
+                                                            <li><a href="product-3.html">Bottom Previews Grid</a></li>
+                                                            <li><a href="product-4.html">Gallery Grid</a></li>
+                                                            <li><a href="product-5.html">Fixed Gallery</a></li>
+                                                            <li><a href="product-8.html">Reverse Columns</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col col-width-3 img-right"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio="1" data-src="images/megamenu/megamenu-img-02.png" alt=""></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="js-link-megamenu"><a href="#">PAGES</a>
+                                        <div class="dropdown-megamenu">
+                                            <div class="dropdown-megamenu-scroll">
+                                                <div class="row">
+                                                    <div class="col col-width-2">
+                                                        <h3>Info Pages</h3>
+                                                        <ul>
+                                                            <li><a href="about.html">About Us</a></li>
+                                                            <li><a href="contacts.html">Contact</a></li>
+                                                            <li><a href="faq.html">FAQ</a></li>
+                                                            <li><a href="page404.html">404 Page</a></li>
+                                                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                                                            <li><a href="typography.html">Typography</a></li>
+                                                            <li><a href="lookbook.html">Lookbook</a></li>
+                                                            <li><a href="gift-card.html">Gift Card</a></li>
+                                                            <li class="js-link-submenu"><a href="gallery.html">Gallery</a>
+                                                                <ul class="js-submenu">
+                                                                    <li><a href="gallery.html">Gallery 3 Column</a></li>
+                                                                    <li><a href="gallery-4column.html">Gallery 4 Column</a></li>
+                                                                    <li><a href="gallery-5column.html">Gallery 5 Column</a></li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col col-width-2">
+                                                        <h3>Account Pages</h3>
+                                                        <ul>
+                                                            <li><a href="authorization.html">Authorization</a></li>
+                                                            <li><a href="authorization-toggle-form.html">Authorization 2</a></li>
+                                                            <li><a href="authorization-create-account.html">Create Account</a></li>
+                                                            <li><a href="authorization-login.html">Login Page</a></li>
+                                                            <li><a href="myaccount.html">My Account</a></li>
+                                                            <li><a href="myaccount-addresses.html">My Addresses</a></li>
+                                                            <li><a href="myaccount-addresses2.html">My Addresses 2</a></li>
+                                                            <li><a href="myaccount-order.html">My Orders</a></li>
+                                                            <li><a href="password-recovery.html">Password Recovery</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><a href="blog.html">BLOG</a>
+                                        <div class="dropdown-megamenu">
+                                            <div class="dropdown-megamenu-scroll">
+                                                <div class="row">
+                                                    <div class="col col-width-2">
+                                                        <ul>
+                                                            <li><a href="blog.html">Blog Left Sidebar</a></li>
+                                                            <li><a href="blog-right-column.html">Blog Right Sidebar</a></li>
+                                                            <li><a href="blog-no-column.html">Blog Without Sidebar</a></li>
+                                                            <li><a href="blog-post.html">Blog Post</a></li>
+                                                            <li><a href="blog-2column.html">Blog Grid 2 Column</a></li>
+                                                            <li><a href="blog-3column.html">Blog Grid 3 Column</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-auto header-col-r">
+                        <div class="header-search">
+                            <div class="searchbox-collapsed">
+                                <div class="searchbox-drop js-searchbox-drop">
+                                    <form action="#"><input type="search" placeholder="I’m searching some..." class="searchbox-input"> <button type="submit" class="searchbox-submit" value=""><i class="icn-search"></i></button></form>
+                                </div><span class="searchbox-icon"><i class="icn-search"></i></span>
+                            </div>
+                        </div>
+                        <div class="header-v-divider"></div>
+                        <div class="js-header-links">
+                            <div class="header-drop header-drop--caret header-currency js-header-currency">
+                                <div class="dropdown"><a class="drop-toggle" href="#" data-toggle="dropdown">USD</a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <ul>
+                                            <li><a href="#">GBR<span> - United Kingdom Pounds</span></a></li>
+                                            <li><a href="#">DEM<span> - Germany Deutsche Marks</span></a></li>
+                                            <li><a href="#">EUR<span> - Euro</span></a></li>
+                                            <li class="active"><a href="#">USD<span> - United States Dollars</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-drop header-acount">
+                                <div class="dropdown"><a class="drop-toggle" href="#" data-toggle="dropdown"><i class="icn-user"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <ul>
+                                            <li><a href="authorization-login.html">Login</a></li>
+                                            <li><a href="authorization-create-account.html">Register</a></li>
+                                            <li><a href="myaccount.html">My Account</a></li>
+                                            <li><a href="cart.html">Checkout</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-drop header-cart header-cart--overlay"><a class="drop-toggle js-sidecart-toggle" href="#"><i class="icn-cart"></i><span class="badge">23</span></a>
+                                <div class="sidecart js-sidecart">
+                                    <div class="sidecart-top d-flex align-items-center">
+                                        <div class="sidecart-close js-sidecart-close"><i class="icn-close"></i>CLOSE</div>
+                                        <div class="sidecart-icon ml-auto"><i class="icn-cart"></i><span class="badge">23</span></div>
+                                    </div>
+                                    <div class="sidecart-table">
+                                        <div class="sidecart-prd">
+                                            <div class="sidecart-prd-photo-wrap">
+                                                <div class="sidecart-prd-photo"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio=".78" data-src="images/products/product-01.jpg" alt=""></div><a href="#" class="sidecart-prd-delete"><i class="icn-close-1"></i></a>
+                                            </div>
+                                            <div class="sidecart-prd-info"><a href="#" class="sidecart-prd-title text-truncate">Basic knit dress chestdst egfdgd</a>
+                                                <div class="sidecart-prd-price"><span>1x</span><span>$39.00</span></div>
+                                                <div class="sidecart-prd-action"><a href="#">EDIT</a></div>
+                                            </div>
+                                        </div>
+                                        <div class="sidecart-prd">
+                                            <div class="sidecart-prd-photo-wrap">
+                                                <div class="sidecart-prd-photo"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio=".78" data-src="images/products/product-02.jpg" alt=""></div><a href="#" class="sidecart-prd-delete"><i class="icn-close-1"></i></a>
+                                            </div>
+                                            <div class="sidecart-prd-info"><a href="#" class="sidecart-prd-title text-truncate">Basic knit dress chestdst egfdgd</a>
+                                                <div class="sidecart-prd-price"><span>1x</span><span>$39.00</span></div>
+                                                <div class="sidecart-prd-action"><a href="#">EDIT</a></div>
+                                            </div>
+                                        </div>
+                                        <div class="sidecart-prd">
+                                            <div class="sidecart-prd-photo-wrap">
+                                                <div class="sidecart-prd-photo"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio=".78" data-src="images/products/product-03.jpg" alt=""></div><a href="#" class="sidecart-prd-delete"><i class="icn-close-1"></i></a>
+                                            </div>
+                                            <div class="sidecart-prd-info"><a href="#" class="sidecart-prd-title text-truncate">Basic knit dress chestdst egfdgd</a>
+                                                <div class="sidecart-prd-price"><span>1x</span><span>$39.00</span></div>
+                                                <div class="sidecart-prd-action"><a href="#">EDIT</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sidecart-bot d-flex align-items-center">
+                                        <div>SUBTOTAL:</div>
+                                        <div class="ml-auto">$ 146.00</div>
+                                    </div><a href="#" class="btn mln-btn btn-block">View Cart</a> <a href="#" class="btn mln-btn mln-btn--border btn-block">Checkout</a>
+                                </div>
+                                <div class="dark-overlay js-sidecart-close"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-mobile header-mobile--compact">
+            <div class="container-fluid">
+                <div class="row header-row header-sticky-content js-header-sticky-content">
+                    <div class="col-auto header-col-l">
+                        <div class="nav-wrap"><a href="#" class="pushmenu-toggle js-pushmenu-toggle"><i class="icn-menu"></i></a>
+                            <nav>
+                                <div class="mobile-menu menu--left js-pushmenu"><a href="#" class="js-pushmenu-toggle pushmenu-close">MENU<i class="icn-close"></i></a>
+                                    <div class="pushmenu-wrapper">
+                                        <ul class="pushmenu js-pushmenu--first is-current">
+                                            <li><a href="index.html">HOME<span class="menu-badge menu-badge--color1">-30%</span></a>
+                                                <ul class="pushmenu pushmenu-sub">
+                                                    <li><a href="index.html">Layout 01</a></li>
+                                                    <li><a href="index-02.html">Layout 02</a></li>
+                                                    <li><a href="index-03.html">Layout 03</a></li>
+                                                    <li><a href="index-04.html">Layout 04</a></li>
+                                                    <li><a href="index-05.html">Layout 05</a></li>
+                                                    <li><a href="index-06.html">Layout 06</a></li>
+                                                    <li><a href="index.html">Default Fashion</a></li>
+                                                    <li><a href="index-skin-accessories.html">Accessories</a></li>
+                                                    <li><a href="index-skin-techstore.html">Techstore</a></li>
+                                                    <li><a href="index-skin-wheels.html">Wheels</a></li>
+                                                    <li><a href="index-skin-furniture.html">Furniture</a></li>
+                                                    <li><a href="coming-soon.html">Cooming Soon ....</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="listing.html">SHOP</a>
+                                                <ul class="pushmenu pushmenu-sub">
+                                                    <li><a href="listing.html">Left Column</a></li>
+                                                    <li><a href="listing-right-col.html">Right Column</a></li>
+                                                    <li><a href="listing-no-col.html">Without Column</a></li>
+                                                    <li><a href="listing-no-banner.html">Without Banners</a></li>
+                                                    <li><a href="listing-sticky-filter.html">Sticky Filter</a></li>
+                                                    <li><a href="listing-sticky-filters-row.html">Sticky Row Filter</a></li>
+                                                    <li><a href="listing-2-per-row.html">Two per row</a></li>
+                                                    <li><a href="listing-no-col.html">Three per row</a></li>
+                                                    <li><a href="listing-4-per-row.html">Four per row</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="product.html">PRODUCT</a>
+                                                <ul class="pushmenu pushmenu-sub">
+                                                    <li><a href="product.html">Left Previews</a></li>
+                                                    <li><a href="product-6.html">Right Previews</a></li>
+                                                    <li><a href="product-2.html">Bottom Previews</a></li>
+                                                    <li><a href="product-7.html">Top Previews</a></li>
+                                                    <li><a href="product-3.html">Bottom Previews Grid</a></li>
+                                                    <li><a href="product-4.html">Gallery Grid</a></li>
+                                                    <li><a href="product-5.html">Fixed Gallery</a></li>
+                                                    <li><a href="product-8.html">Reverse Columns</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="about.html">INFO PAGES</a>
+                                                <ul class="pushmenu pushmenu-sub">
+                                                    <li><a href="about.html">About Us</a></li>
+                                                    <li><a href="contacts.html">Contact</a></li>
+                                                    <li><a href="faq.html">FAQ</a></li>
+                                                    <li><a href="page404.html">404 Page</a></li>
+                                                    <li><a href="coming-soon.html">Coming Soon</a></li>
+                                                    <li><a href="typography.html">Typography</a></li>
+                                                    <li><a href="lookbook.html">Lookbook</a></li>
+                                                    <li><a href="gift-card.html">Gift Card</a></li>
+                                                    <li><a href="gallery.html">Gallery</a>
+                                                        <ul class="pushmenu pushmenu-sub">
+                                                            <li><a href="gallery-2column.html">Gallery 2 Column</a></li>
+                                                            <li><a href="gallery.html">Gallery 3 Column</a></li>
+                                                            <li><a href="gallery-4column.html">Gallery 4 Column</a></li>
+                                                            <li><a href="gallery-5column.html">Gallery 5 Column</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="myaccount.html">ACCOUNT</a>
+                                                <ul class="pushmenu pushmenu-sub">
+                                                    <li><a href="authorization.html">Authorization</a></li>
+                                                    <li><a href="authorization-toggle-form.html">Authorization 2</a></li>
+                                                    <li><a href="authorization-create-account.html">Create Account</a></li>
+                                                    <li><a href="authorization-login.html">Login Page</a></li>
+                                                    <li><a href="myaccount.html">My Account</a></li>
+                                                    <li><a href="myaccount-addresses.html">My Addresses</a></li>
+                                                    <li><a href="myaccount-addresses2.html">My Addresses 2</a></li>
+                                                    <li><a href="myaccount-order.html">My Orders</a></li>
+                                                    <li><a href="password-recovery.html">Password Recovery</a></li>
+                                                    <li><a href="#">BUY NOW</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="about.html">BLOG</a>
+                                                <ul class="pushmenu pushmenu-sub">
+                                                    <li><a href="blog.html">Blog Left Sidebar</a></li>
+                                                    <li><a href="blog-right-column.html">Blog Right Sidebar</a></li>
+                                                    <li><a href="blog-no-column.html">Blog Without Sidebar</a></li>
+                                                    <li><a href="blog-post.html">Blog Post</a></li>
+                                                    <li><a href="blog-2column.html">Blog Grid 2 Column</a></li>
+                                                    <li><a href="blog-3column.html">Blog Grid 3 Column</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="mobile-menu-bottom">
+                                        <div class="header-drop-title">Currency</div>
+                                        <div class="header-drop header-currency js-header-mobile-currency"></div>
+                                    </div>
+                                </div>
+                                <div class="dark-overlay js-pushmenu-toggle"></div>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="header-col-logo">
+                        <div class="header-logo"><a href="index.html"><img src="images/logo.png" srcset="images/logo@2x.png 2x" alt="Logo"></a></div>
+                    </div>
+                    <div class="col-auto header-col-r">
+                        <div class="header-search-mob">
+                            <div class="searchbox-collapsed"><span class="searchbox-icon"><i class="icn-search"></i></span></div>
+                        </div>
+                        <div class="js-header-mobile-links"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-wrap breadcrumb-wrap mt-0">
+        <div class="container-fluid">
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Authorization</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="container-wrap">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col col-sm-10 col-md-7 col-lg-6 col-xl-5">
+                        <h1 class="text-center">Authorization</h1>
+                        <div class="form-box">
+                            <div class="row form-toggle">
+                                <div class="col"><a class="active" href="#form1">Login</a></div>
+                                <div class="col-auto ml-auto"><a class="" href="#form2">Create Account</a></div>
+                            </div>
+                            <div class="p-0 mt-40">
+                                <div class="form-toggled active" id="form1">
+                                    <div class="form-group"><input type="text" class="form-control" placeholder="User Name"></div>
+                                    <div class="form-group"><input type="password" class="form-control" placeholder="Password"></div>
+                                    <div class="form-group">
+                                        <div class="row form-flex flex-nowrap align-items-center">
+                                            <div class="col text-center"><a href="#" class="mln-color">Forgot password?</a></div>
+                                            <div class="col"><button class="btn mln-btn w-100">Login</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-toggled" id="form2">
+                                    <div class="form-group"><input type="text" class="form-control" placeholder="User Name"></div>
+                                    <div class="form-group"><input type="password" class="form-control" placeholder="Password"></div>
+                                    <div class="form-group"><input type="password" class="form-control" placeholder="Retype Password"></div>
+                                    <div class="form-group">
+                                        <div class="row form-flex flex-nowrap align-items-center">
+                                            <div class="col text-center"><button class="btn mln-btn">Create Account</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="footer-topline container"></div>
+        <div class="footer-center-row1 text-center text-md-left">
+            <div class="container">
+                <div class="row row-v-space-sm">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-logo"><a href="index.html"><img src="images/logo.png" srcset="images/logo@2x.png 2x" alt="Logo"></a></div>
+                        <div class="footer-subscribe-block">
+                            <form action="#"><input type="text" class="form-control form-control--sm text-center" placeholder="Your email"> <button class="btn btn-sm btn-block mln-btn" type="button">Subscribe</button></form>
+                        </div>
+                        <ul class="footer-socials">
+                            <li><a href="#"><i class="icn-facebook"></i></a></li>
+                            <li><a href="#"><i class="icn-twitter"></i></a></li>
+                            <li><a href="#"><i class="icn-instagram"></i></a></li>
+                            <li><a href="#"><i class="icn-pinterest"></i></a></li>
+                            <li><a href="#"><i class="icn-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-lg collapsed-sm">
+                        <h4 class="collapsed-title">SHOP</h4><input type="checkbox" class="collapsed-checkbox" checked="checked"><i class="collapsed-caret"></i>
+                        <div class="collapsed-content">
+                            <ul class="list-footer">
+                                <li><a href="listing.html">Women collection</a></li>
+                                <li><a href="listing.html">Men collection</a></li>
+                                <li><a href="listing.html">Kids collection</a></li>
+                                <li><a href="listing.html">Accessories</a></li>
+                                <li><a href="listing.html">Shoes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg collapsed-sm">
+                        <h4 class="collapsed-title">INFORMATION</h4><input type="checkbox" class="collapsed-checkbox" checked="checked"><i class="collapsed-caret"></i>
+                        <div class="collapsed-content">
+                            <ul class="list-footer">
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="contacts.html">Careers</a></li>
+                                <li><a href="contacts.html">Affiliate</a></li>
+                                <li><a href="lookbook.html">Lookbook</a></li>
+                                <li><a href="product.html">Size Guide</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2 collapsed-sm">
+                        <h4 class="collapsed-title">CUSTOMER HELP</h4><input type="checkbox" class="collapsed-checkbox" checked="checked"><i class="collapsed-caret"></i>
+                        <div class="collapsed-content">
+                            <ul class="list-footer">
+                                <li><a href="contacts.html">Contact Us</a></li>
+                                <li><a href="authorization.html">Track orders</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="authorization.html">Returns</a></li>
+                                <li><a href="contacts.html">Consultant</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 collapsed-sm">
+                        <h4 class="collapsed-title">CONTACTS</h4><input type="checkbox" class="collapsed-checkbox" checked="checked"><i class="collapsed-caret"></i>
+                        <div class="collapsed-content">
+                            <ul class="list-icons">
+                                <li><i class="icn-map-pin"></i>55 Gallaxy Enque, 2568 street,<br>23568 NY</li>
+                                <li><i class="icn-phone"></i>+202-555-0186</li>
+                                <li><i class="icn-mail"></i><a href="#">milanastore@mn.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bot">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-5">
+                        <div class="footer-copyright text-center text-lg-left">© 2020 <a href="#">Milana</a>. All Rights Reserved.<br></div>
+                    </div>
+                    <div class="col-12 col-lg mt-10 mt-lg-0">
+                        <ul class="list-payment text-center text-lg-right">
+                            <li><a href="#"><i class="icn-pay_paypal"></i></a></li>
+                            <li><a href="#"><i class="icn-pay_ae"></i></a></li>
+                            <li><a href="#"><i class="icn-pay_amazon"></i></a></li>
+                            <li><a href="#"><i class="icn-pay_discover"></i></a></li>
+                            <li><a href="#"><i class="icn-pay_mc"></i></a></li>
+                            <li><a href="#"><i class="icn-pay_visa"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Modal Options -->
+    <div class="modal fade opt-modal" id="optModal" data-animate-start="fadeIn" data-animate-end="fadeOut">
+        <div class="modal-dialog-wrap">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="mln-loader-wrap js-loader">
+                        <div class="mln-loader"></div>
+                    </div>
+                    <h2 class="product-item-title"><a href="product.html">Product Name</a></h2>
+                    <div class="product-added-label">Produst Added To Cart</div>
+                    <div class="product-item-options">
+                        <div class="product-item-options-close js-toggle-options"><i class="icn-close-1"></i></div>
+                        <div class="product-item-option">
+                            <div class="options-title">SIZE</div>
+                            <ul class="options-list options--size">
+                                <li class="active"><a href="#">xxs</a></li>
+                                <li><a href="#">xs</a></li>
+                                <li><a href="#">s</a></li>
+                                <li><a href="#">l</a></li>
+                                <li><a href="#">xl</a></li>
+                            </ul>
+                        </div>
+                        <div class="product-item-option">
+                            <div class="options-title">Color</div>
+                            <ul class="opt-select js-opt-select dropdown-menu mln-dropdown-menu">
+                                <li><a href="#"><span><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio="1" data-src="images/products/product-02.jpg" alt=""></span>Burgundy</a></li>
+                                <li><a href="#"><span><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio="1" data-src="images/products/product-02-c02.jpg" alt=""></span>Green</a></li>
+                                <li class="active"><a href="#"><span><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio="1" data-src="images/products/product-02-c03.jpg" alt=""></span>Orange</a></li>
+                            </ul>
+                        </div>
+                        <div class="product-item-option-price">
+                            <div class="product-item-price">$ 49.00</div>
+                            <div class="count-input"><a class="incr-btn" data-action="decrease" href="#">–</a> <input class="product-count" type="text" name="quantity" data-max="10" value="1"> <a class="incr-btn" data-action="increase" href="#">&plus;</a></div>
+                        </div>
+                        <div class="product-item-actions js-product-buy"><a href="#" class="btn mln-btn btn-block btn-addtocart js-addtocart">Add To Cart</a> <a href="#" class="btn mln-btn mln-btn--border btn-block">Buy in one click</a></div>
+                        <div class="product-item-checkout js-product-checkout"><a href="#" class="btn mln-btn mln-btn--border btn-block js-continue">Continue Shopping</a> <a href="#" class="btn mln-btn btn-block">Checkout</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Added -->
+    <div class="modal fade opt-modal" id="addedModal" data-animate-start="fadeIn" data-animate-end="fadeOut">
+        <div class="modal-dialog-wrap">
+            <div class="modal-dialog">
+                <div class="modal-content added">
+                    <div class="product-added-label">Produst Added To Cart</div>
+                    <div class="product-item-options mt-1">
+                        <div class="product-item-options-close js-close-modal"><i class="icn-close-1"></i></div>
+                        <div class="product-item-checkout js-product-checkout"><a href="#" class="btn btn-block js-close-modal">Continue Shopping</a> <a href="#" class="btn mln-btn btn-block">Checkout</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal QuickView -->
+    <div class="modal fade qw-modal" id="quickView" data-animate-start="fadeIn" data-animate-end="fadeOut">
+        <div class="modal-dialog-wrap">
+            <div class="modal-dialog">
+                <div class="modal-content"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icn-close-1"></i></button>
+                    <div class="row">
+                        <div class="col col-gallery">
+                            <div class="product-gallery thumbs-left">
+                                <div class="product-gallery-single">
+                                    <ul class="js-product-single-carousel-modal">
+                                        <li>
+                                            <div class="easyzoom easyzoom--overlay"><a href="images/products/product-gallery-01-zoom.jpg"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio=".78" data-src="images/products/product-gallery-01.jpg" alt="" class="product-img lazyload"></a></div>
+                                        </li>
+                                        <li>
+                                            <div class="easyzoom easyzoom--overlay"><a href="images/products/product-gallery-02-zoom.jpg"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio=".78" data-src="images/products/product-gallery-02.jpg" alt="" class="product-img lazyload"></a></div>
+                                        </li>
+                                        <li>
+                                            <div class="easyzoom easyzoom--overlay"><a href="images/products/product-gallery-03-zoom.jpg"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio=".78" data-src="images/products/product-gallery-03.jpg" alt="" class="product-img lazyload"></a></div>
+                                        </li>
+                                        <li>
+                                            <div class="easyzoom easyzoom--overlay"><a href="images/products/product-gallery-04-zoom.jpg"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio=".78" data-src="images/products/product-gallery-04.jpg" alt="" class="product-img lazyload"></a></div>
+                                        </li>
+                                        <li>
+                                            <div class="easyzoom easyzoom--overlay"><a href="images/products/product-gallery-05-zoom.jpg"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio=".78" data-src="images/products/product-gallery-05.jpg" alt="" class="product-img lazyload"></a></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="product-gallery-thumbs">
+                                    <ul class="js-product-thumbs-carousel-modal slick-squared-arrow">
+                                        <li><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio=".78" data-src="images/products/product-gallery-01.jpg" alt=""></li>
+                                        <li><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio=".78" data-src="images/products/product-gallery-02.jpg" alt=""></li>
+                                        <li><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio=".78" data-src="images/products/product-gallery-03.jpg" alt=""></li>
+                                        <li><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio=".78" data-src="images/products/product-gallery-04.jpg" alt=""></li>
+                                        <li><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio=".78" data-src="images/products/product-gallery-05.jpg" alt=""></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-info">
+                            <div class="product-infobox">
+                                <div class="product-infobox-top">
+                                    <h2 class="product-title">Brushed basic hoodie</h2>
+                                    <div class="product-rating"><i class="icn-star_empty"></i><i class="icn-star_empty"></i><i class="icn-star_empty"></i><i class="icn-star_empty"></i><i class="icn-star_empty"></i><a href="#tabReviews" class="tab-link">5 reviews</a></div>
+                                    <div class="product-price"><span class="price-old">$ 70.00</span><span class="price-new">$ 39.00</span></div>
+                                </div>
+                                <div class="product-infobox-scroll">
+                                    <div class="product-description">Praesent fringilla est id egestas a pretium consectetur quisque consectetur pulvinar</div>
+                                    <div class="product-opts">
+                                        <div class="product-opt">
+                                            <div class="product-opt-title">SIZE</div>
+                                            <div class="product-opt-col">
+                                                <ul class="opts-list opts--size">
+                                                    <li class="active"><a href="#">xxs</a></li>
+                                                    <li><a href="#">xs</a></li>
+                                                    <li><a href="#">s</a></li>
+                                                    <li><a href="#">l</a></li>
+                                                    <li><a href="#">xl</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-opt">
+                                            <div class="product-opt-title">COLOR</div>
+                                            <div class="product-opt-col">
+                                                <ul class="opts-list opts--color">
+                                                    <li><a href="#"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio="1" data-src="images/products/colors/color-01.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio="1" data-src="images/products/colors/color-02.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio="1" data-src="images/products/colors/color-03.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio="1" data-src="images/products/colors/color-04.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio="1" data-src="images/products/colors/color-05.jpg" alt=""></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-opt">
+                                            <div class="product-opt-title">MATERIAL</div>
+                                            <div class="product-opt-col">
+                                                <ul class="opt-select js-opt-select dropdown-menu mln-dropdown-menu">
+                                                    <li class="active"><a href="#"><span><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio="1" data-src="images/products/colors/material-01.jpg" alt=""></span>Denim</a></li>
+                                                    <li><a href="#"><span><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio="1" data-src="images/products/colors/material-02.jpg" alt=""></span>Velvet</a></li>
+                                                    <li><a href="#"><span><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-aspectratio="1" data-src="images/products/colors/material-03.jpg" alt=""></span>Cotton</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-infobox-bot">
+                                    <div class="product-count-wrap">
+                                        <div class="product-count-title">COUNT</div>
+                                        <div class="product-count-col">
+                                            <div class="count-input"><a class="incr-btn" data-action="decrease" href="#">–</a> <input class="product-count" type="text" name="quantity" data-max="10" value="1"> <a class="incr-btn" data-action="increase" href="#">&plus;</a></div>
+                                        </div>
+                                    </div>
+                                    <div class="product-action">
+                                        <div class="btn mln-btn">Add To Cart</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- back to top -->
+    <a class="back-to-top js-back-to-top" href="#" title="Scroll To Top"><i class="icon icn-arrow_up"></i></a>
+    <script src="js/jquery.min.js"></script>
+    <!-- vendor concat plugin -->
+    <script src="js/vendor.min.js"></script>
+
+    <!-- vendor scripts - separate files
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/jquery.waypoints.min.js"></script>
+<script src="js/vendor/sticky.min.js"></script>
+<script src="js/vendor/slick.min.js"></script>
+<script src="js/vendor/jquery.countdown.min.js"></script>
+<script src="js/vendor/imagesloaded.pkgd.min.js"></script>
+<script src="js/vendor/easyzoom.js"></script>
+<script src="js/vendor/perfect-scrollbar.min.js"></script>
+<script src="js/vendor/jquery.instagramFeed.min.js"></script>
+<script src="js/vendor/jquery.magnific-popup.min.js"></script>
+<script src="js/vendor/jquery.cookie.min.js"></script>
+<script src="js/vendor/lazysizes.min.js"></script>
+<script src="js/vendor/jquery.form.js"></script>
+<script src="js/vendor/validator.min.js"></script>
+<script src="js/vendor/jquery.filterizr.min.js"></script>-->
+
+    <!-- customs script -->
+    <script src="js/theme.js"></script>
+</body>
+
+
+<!-- Mirrored from nikoband.com/html/milana-demo/authorization.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Jan 2022 15:33:10 GMT -->
+</html>
